@@ -9,7 +9,6 @@ public class Main {
 		num = 10;
 		System.out.println("num = " + num);
 		
-		//num = num + 10;
 		System.out.println("num + 10 = " + (num + 10));
 		
 	}

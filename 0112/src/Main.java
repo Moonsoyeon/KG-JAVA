@@ -37,16 +37,16 @@ public class Main {
 		%c(character) : 문자
 		%s(String) : 문자열
 		*/
-		
-		int i = 10;
-		char c = 'A';
-		float f = 1.234f;
-		String str = "Hello World!!!";
-		
-		System.out.printf("i = %d\n", i);
-		System.out.printf("c = %c\n", c);
-		System.out.printf("f = %f\n", f);
-		System.out.printf("str = %s\n", str);
+//		
+//		int i = 10;
+//		char c = 'A';
+//		float f = 1.234f;
+//		String str = "Hello World!!!";
+//		
+//		System.out.printf("i = %d\n", i);
+//		System.out.printf("c = %c\n", c);
+//		System.out.printf("f = %f\n", f);
+//		System.out.printf("str = %s\n", str);
 		/*
 		 System.in
 		  -표준 입력 스트림
@@ -55,7 +55,7 @@ public class Main {
 		 System.in.readLine()
 		  -키보드로 부터 입력 받은 값을 line단위로 읽어 와서 저장
 		 */
-		
+//		
 //		int i = 10;
 //		
 //		System.out.print("입력 : ");
@@ -73,9 +73,9 @@ public class Main {
 		 사용법
 		 Scanner str = new Scanner();
 		 */
-		String message = "";
-		Scanner sc = new Scanner(System.in);
-		
+//		String message = "";
+//		Scanner sc = new Scanner(System.in);
+//		
 //		System.out.print("메시지 입력 : ");
 //		message = sc.nextLine();
 //		System.out.println(message);
@@ -94,6 +94,20 @@ public class Main {
 //		System.out.println("이름 : "+name);
 //		System.out.println("나이 : "+age);
 //		System.out.println("몸무게 : "+weight);
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("자바 점수 : ");
+		int javascore = sc.nextInt();
+		System.out.print("JSP 점수 : ");
+		int jspscore = sc.nextInt();
+		System.out.print("이름 입력 : ");
+		String name = sc.next();
+		
+		System.out.println("[" + name + "님의 성적]");
+		System.out.println("자바 : " + javascore);
+		System.out.println("JSP : " + jspscore);
+		System.out.println("합계 : " + (javascore + jspscore));
+		System.out.println("평균 : " + ((javascore + jspscore)/2));
 		
 //		자바 점수 :
 //		JSP 점수: 

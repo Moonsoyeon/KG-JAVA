@@ -1,0 +1,21 @@
+제어문
+
+- 조건문
+  - if
+- 반복문
+  - while 
+  - for
+- 분기문
+  - switch
+  - break
+  - continue 
+
+제어문 형태
+if(조건) {
+    명령1;
+    명령2;
+    명령3; 
+}
+
+- System.currentTimeMils()
+  - 1970년 01월 01일 0시 0분부터 현재 까지의 시간을 ms단위로 변환

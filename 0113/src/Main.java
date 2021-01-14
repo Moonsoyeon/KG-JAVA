@@ -115,5 +115,4 @@ public class Main {
 		System.out.println( sNum+"=|"+absSN+"|");
 		
 	}
-
 }

@@ -13,7 +13,9 @@ public class Main {
 //		System.out.println(c);
 //		System.out.print(str);
 //		System.out.println("Hello Java");
-//		
+
+//		-------------------------------------------------		
+		
 //		System.out.println("\n");
 		/* 
 		'\' : Escape Sequence Character
@@ -28,6 +30,8 @@ public class Main {
 //		System.out.println("Hello\tWorld!!! \nProgram\tis\tmy\tlife");
 //		System.out.println("1234567812345678123456781234567812345678");
 //		System.out.println("a\tHello\tworld\tjava sam\tb\t");
+
+//		-------------------------------------------------		
 		
 		/*
 		서식을 제어하는 문자
@@ -47,6 +51,9 @@ public class Main {
 //		System.out.printf("c = %c\n", c);
 //		System.out.printf("f = %f\n", f);
 //		System.out.printf("str = %s\n", str);
+		
+//		-------------------------------------------------		
+		
 		/*
 		 System.in
 		  -표준 입력 스트림
@@ -63,6 +70,8 @@ public class Main {
 //		System.out.printf("출력 : %c", i);
 //		i = System.in.read();
 //		System.out.printf("출력 : %c", i);
+
+//		-------------------------------------------------		
 		
 		/*
 		 Scanner 객체
@@ -94,6 +103,18 @@ public class Main {
 //		System.out.println("이름 : "+name);
 //		System.out.println("나이 : "+age);
 //		System.out.println("몸무게 : "+weight);
+	
+//		-------------------------------------------------		
+		
+//		자바 점수 :
+//		JSP 점수: 
+//		이름 입력 :
+		
+//		[이름님의 성적]
+//		자바 : ___점
+//		JSP : ___점
+//		합계 : ___점
+//		평균 : ___점		
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("자바 점수 : ");
@@ -108,16 +129,7 @@ public class Main {
 		System.out.println("JSP : " + jspscore);
 		System.out.println("합계 : " + (javascore + jspscore));
 		System.out.println("평균 : " + ((javascore + jspscore)/2));
-		
-//		자바 점수 :
-//		JSP 점수: 
-//		이름 입력 :
-//		=====================
-//		[이름님의 성적]
-//		자바 : ___점
-//		JSP : ___점
-//		합계 : ___점
-//		평균 : ___점
+
 
 	}
 

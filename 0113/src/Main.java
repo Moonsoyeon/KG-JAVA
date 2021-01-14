@@ -69,7 +69,7 @@ public class Main {
 		
 //		System.out.print(a);
 //		a = a + b;
-//		System.out.println(" + " + b + " = " + a);
+//		System.out.println(" + " + b + " = " + a);°Á ¤¾
 		
 //		a = 10;
 //		b = 20;
@@ -77,12 +77,43 @@ public class Main {
 //		a += b;
 //		System.out.println(" + " + b + " = " + a);
 		
-		char ch = 'a';
-		System.out.println(ch > 'b' || ch > 96);
-		System.out.println(ch > 'b' && ch > 96);
-		System.out.println(!(ch > 'b' && ch > 96));
+//		char ch = 'a';
+//		System.out.println(ch > 'b' || ch > 96);
+//		System.out.println(ch > 'b' && ch > 96);
+//		System.out.println(!(ch > 'b' && ch > 96));
+//		
+//		System.out.println((char)(Math.random() * 127 + 1));
 		
-		System.out.println((char)(Math.random() * 127 + 1));
+//		int fNum;
+//		float sNum;
+		
+//		fNum = 5;
+//		++fNum;
+//		System.out.println("++fNum = " + fNum);
+		
+//		fNum = 5;
+//		fNum++;
+//		System.out.println("fNum++=" + fNum);
+		
+//		sNum=12.34f;
+//		System.out.println("++sNum = " + (++sNum));
+		
+//		sNum=12.34f;
+//		System.out.println("sNum++ = " + (sNum++));
+//		System.out.println("sNum = " + (sNum));
+		
+		int fNum = 10;
+		int sNum = -10;
+		
+		int absFN;
+		int absSN;
+		
+		absFN = (fNum>=0) ? fNum : -fNum;
+		absSN = (sNum>=0) ? sNum : -sNum;
+		
+		System.out.println( fNum+" =|"+absFN+"|");
+		System.out.println( sNum+"=|"+absSN+"|");
+		
 	}
 
 }

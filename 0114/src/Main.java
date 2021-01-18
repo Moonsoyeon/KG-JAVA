@@ -62,17 +62,16 @@ public class Main {
 		String name = sc.next();
 		System.out.print("출생년도 : ");
 		int birth = sc.nextInt();
+
+		int hour = (int)((((System.currentTimeMillis() / 1000) / 60)/ 60) + 9);
+		int pyear = hour / 365 / 24 + 1970;
+		int age = pyear - birth;
 		
-//		long time = System.currentTimeMillis();
-//		long year = ((int)(((time / 1000) / 60)/ 60)) / 24;
-//		long y = birth - 1970;
-//		System.out.println(year);
-		
-//		if(year >= 20) {
-//			System.out.println(name + "님은 성인입니다.");
-//		} else {
-//			System.out.println(name + "님은 미성년입니다.");
-//		}
+		if(age >= 20) {
+			System.out.println(name + "님은 성인입니다.");
+		} else {
+			System.out.println(name + "님은 미성년입니다.");
+		}
 		
 		
 	}

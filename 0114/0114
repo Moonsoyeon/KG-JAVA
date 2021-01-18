@@ -1,21 +1,38 @@
 제어문
-
 - 조건문
   - if
 - 반복문
-  - while 
-  - for
+  - while, for
 - 분기문
   - switch
   - break
-  - continue 
-
+  - continue
+  
 제어문 형태
-if(조건) {
-    명령1;
-    명령2;
-    명령3; 
+if( 조건  ){
+	명령1;
+	명령2;
+	명령3;
 }
 
-- System.currentTimeMils()
-  - 1970년 01월 01일 0시 0분부터 현재 까지의 시간을 ms단위로 변환
+- System.currentTimeMilis()
+  - 1970년 01월 01 0시 0분 현재 까지의 시간을 ms단위로 변환
+  
+형식화 클래스
+- 숫자, 날짜 등을 일정한 형식에 맞게 표현해 주는 객체
+- DecimalFormat
+  - 숫자 데이터의 출력 서식을 제어 할 수 있다.
+- SimpleDateFormat
+  - 날짜 데이터의 출력 서식을 제어 할 수 있다.
+
+- Math.random()
+
+
+
+
+
+
+
+
+
+

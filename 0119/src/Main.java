@@ -180,16 +180,6 @@ public class Main {
 		
 		System.out.println("รัมก : " + score);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

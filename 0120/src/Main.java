@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 //		int sum = 0;
 //		int num = 1;
 		
@@ -142,20 +142,42 @@ public class Main {
 		
 		//사용자로부터 분을 입력 받으세요
 		
+		//내 풀이
+//		Scanner sc = new Scanner(System.in);
+		
+//		System.out.print("분 입력 : ");
+//		int minute = sc.nextInt();
+//		int second; 
+		
+//		System.out.printf("%d분 0초\n", minute);
+//		for(int i = minute - 1; i >= 0; i--) {
+//			for(second = 59; second >= 0; second--) {
+//				System.out.printf("%d분 %d초\n", i, second);
+//			}
+//		}
+//		System.out.println("분 세기 끝!!! JAVA!!!");
+
+//		------------------------------------------
+		
+		//강사님 풀이
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("분 입력 : ");
-		int minute = sc.nextInt();
-		int second; 
+		int min, second, mSec;
+		int secUnit = 60;
 		
-		System.out.printf("%d분 0초\n", minute);
-		for(int i = minute - 1; i >= 0; i--) {
-			for(second = 59; second >= 0; second--) {
-				System.out.printf("%d분 %d초\n", i, second);
-			}
+		System.out.print("분 입력 : ");
+		min = sc.nextInt();
+		mSec = min * secUnit;
+		
+		System.out.println("Ready...");
+		for(int i = mSec; i >= 0; i--) {
+			min = i / secUnit;
+			second = i % secUnit;
+			System.out.println(min + "분 " + second + "초");
+			Thread.sleep(1000);
 		}
-		System.out.println("분 세기 끝!!! JAVA!!!");
-
+		
+		System.out.println("JAVA!!!!");
 	}
 
 }

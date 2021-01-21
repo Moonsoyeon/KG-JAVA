@@ -84,35 +84,34 @@ public class Main {
 		
 //		------------------------------------------
 		
-		//강사님 풀이
-		
-		int [] dice = new int[10];
-		
-		for(int i = 0; i < dice.length; i++) {
-			int rNum = (int)(Math.random() * 6 + 1);
-			dice[i] = rNum;
-			System.out.print(rNum + " ");
-		}
-		
-		System.out.println("\n");
-		for(int i = 0; i < dice.length; i++) {
-			if(i == 0) {
-					System.out.print("짝수 주사위 : ");
-				}
-			if(dice[i] % 2 == 0) {
-				System.out.print(dice[i] + " ");
-			}
-		}
-		
-		System.out.println();
-		for(int i = 0; i < dice.length; i++) {
-			if(i == 0) {
-					System.out.print("홀수 주사위 : ");
-				}
-			if(dice[i] % 2 != 0) {
-				System.out.print(dice[i] + " ");
-			}
-		}
+		//강사님 풀이		
+//		int [] dice = new int[10];
+//		
+//		for(int i = 0; i < dice.length; i++) {
+//			int rNum = (int)(Math.random() * 6 + 1);
+//			dice[i] = rNum;
+//			System.out.print(rNum + " ");
+//		}
+//		
+//		System.out.println("\n");
+//		for(int i = 0; i < dice.length; i++) {
+//			if(i == 0) {
+//					System.out.print("짝수 주사위 : ");
+//				}
+//			if(dice[i] % 2 == 0) {
+//				System.out.print(dice[i] + " ");
+//			}
+//		}
+//		
+//		System.out.println();
+//		for(int i = 0; i < dice.length; i++) {
+//			if(i == 0) {
+//					System.out.print("홀수 주사위 : ");
+//				}
+//			if(dice[i] % 2 != 0) {
+//				System.out.print(dice[i] + " ");
+//			}
+//		}
 		
 //		------------------------------------------
 		
@@ -129,6 +128,11 @@ public class Main {
 		
 		//선택된 메뉴는 떡볶이 입니다.
 		
+		String[] food = {"김밥", "라면", "떡볶이", "자장면", "순대"};
+		
+		int i = (int)(Math.random() * 5);
+		
+		System.out.println("선택된 메뉴는 " + food[i] + " 입니다.");
 				
 	}
 

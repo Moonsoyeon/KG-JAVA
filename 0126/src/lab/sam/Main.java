@@ -51,11 +51,11 @@ public class Main {
 		
 //		------------------------------------------
 		
-		Kim kks = new Kim();
+//		Kim kks = new Kim();
 //		kks.age = 38;
 //		kks.name = "이강사";
-		kks.setAge(35);
-		kks.getAge();
+//		kks.setAge(35);
+//		kks.getAge();
 		
 //		System.out.println("이름 : " + kks.name);
 //		System.out.println("나이 : " + kks.age);
@@ -75,6 +75,8 @@ class Kim{
 		return age;
 	}
 }
+
+//------------------------------------------
 
 class Calc{
 	int operator(int a, String c, int b) {
@@ -116,6 +118,8 @@ class Calc{
 	}
 	
 }
+
+//------------------------------------------
 
 //class MethodEx{
 //	int add(int a, int b) {

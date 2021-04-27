@@ -74,6 +74,7 @@ class Kim{
 	public int getAge() {
 		return age;
 	}
+	
 }
 
 //------------------------------------------
